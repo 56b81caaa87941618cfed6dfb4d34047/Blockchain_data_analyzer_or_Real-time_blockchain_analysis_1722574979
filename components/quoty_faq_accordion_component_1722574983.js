@@ -6,7 +6,7 @@
 Vue.component("quoty_faq_accordion_component_1722574983", {
     template: `
     <section class="py-8 bg-white pl-4">
-        <h2 class="text-lg font-semibold mb-5">PLACEHOLDER_FAQ_TITLE</h2>
+        <h2 class="text-lg font-semibold mb-5">Frequently Asked Questions About Our Blockchain Analysis App</h2>
         <!-- Accordion -->
         <div class="space-y-3">
             <!-- Accordion item -->
@@ -35,10 +35,10 @@ Vue.component("quoty_faq_accordion_component_1722574983", {
     data() {
         return {
             terms: [
-                { title: "ACCORDION_QUESTION_1", description: "ACCORDION_ANSWER_1", expanded: false },
-                { title: "ACCORDION_QUESTION_2", description: "ACCORDION_ANSWER_2", expanded: false },
-                { title: "ACCORDION_QUESTION_3", description: "ACCORDION_ANSWER_3", expanded: false },
-                { title: "ACCORDION_QUESTION_4", description: "ACCORDION_ANSWER_4", expanded: false },
+                { title: "What is this app used for?", description: "Our app provides powerful analytics and insights into new blockchain data as it gets added to the ledger. It helps you stay on top of the latest transactions, contracts, and activities happening on the blockchain.", expanded: false },
+                { title: "How does the analysis work?", description: "We utilize advanced algorithms and machine learning models to parse and interpret the raw blockchain data. Our app then surfaces key metrics, trends, and anomalies that you can easily explore and monitor.", expanded: false },
+                { title: "What blockchains are supported?", description: "Currently we support analysis for Bitcoin, Ethereum, and several other major blockchain networks. We are constantly working to add support for more blockchains based on user demand.", expanded: false },
+                { title: "Is there a free trial?", description: "Yes, we offer a 30-day free trial so you can test out the full capabilities of our blockchain analysis app before subscribing. Sign up today to get started!", expanded: false },
             ],
         };
     },
